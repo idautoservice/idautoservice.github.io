@@ -1,0 +1,518 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+  background-color: #F8F8F8;
+}
+
+#container {
+  margin: auto;
+  background-color: #FFF;
+  border: 1px solid #000;
+  width: 797px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+#banner {
+  border-bottom: 1px solid #333;
+  margin: 0;
+}
+
+#address {
+  padding: 4px;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+#wifi {
+  text-align: center;
+}
+
+#tires {
+  text-align: center;
+  color: red;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 1em;
+}
+
+#navigation {
+  float: left;
+  width: 130px;
+  margin-left: 10px;
+  padding: 2em;
+}
+
+#navigation2 {
+  float: left;
+  width: 130px;
+  margin-left: 10px;
+  padding: 2em;
+  margin-bottom: 600px;
+}
+
+#navigation2 p {
+  margin-top: 0;
+}
+
+a.clear {
+  overflow: hidden;
+  width: 100%;
+}
+
+a.button {
+  background: transparent url(images/bg_button_a.gif) no-repeat scroll top right;
+  color: #444;
+  display: block;
+  float: left;
+  font: normal 12px arial, sans-serif;
+  height: 24px;
+  margin-right: 6px;
+  padding-right: 18px;
+  /* sliding doors padding */
+  text-decoration: none;
+  font-size: 16px;
+  width: 85%;
+}
+
+a.button:hover {
+  color: #0000FF;
+}
+
+a.button span {
+  background: transparent url(images/bg_button_span.gif) no-repeat;
+  display: block;
+  line-height: 14px;
+  padding: 5px 0 5px 18px;
+}
+
+a.button:active {
+  background-position: bottom right;
+  color: #000;
+  outline: none;
+  /* hide dotted outline in Firefox */
+}
+
+a.button:active span {
+  background-position: bottom left;
+  padding: 6px 0 4px 18px;
+  /* push text down 1px */
+}
+
+#navigation p {
+  margin-top: 0;
+}
+
+#content {
+  padding: 1em;
+  margin: 0 2em 0 100px;
+}
+
+#footer {
+  clear: both;
+  padding: 5px;
+  text-align: right;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+td {
+  padding: 3px;
+}
+
+/*image pop up*/
+div#make a img {
+  height: 0;
+  width: 0;
+  border-width: 0;
+}
+
+div#make a:hover {
+  border-right: 0;
+}
+
+div#make a {
+  color: black;
+  text-decoration: none;
+  outline: none;
+  cursor: text;
+}
+
+/*end image popup*/
+
+/*start car*/
+div#make a.acura:hover img {
+  position: absolute;
+  margin-left: 265px;
+  margin-top: 50px;
+  height: 127px;
+  width: 134px;
+}
+
+div#make a.honda:hover img {
+  position: absolute;
+  margin-left: 265px;
+  margin-top: -200px;
+  height: 127px;
+  width: 134px;
+}
+
+div#make a.mercedes:hover img {
+  position: absolute;
+  margin-left: 135px;
+  margin-top: -175px;
+  height: 127px;
+  width: 130px;
+}
+
+div#make a.audi:hover img {
+  position: absolute;
+  margin-left: 255px;
+  margin-top: 50px;
+  height: 65px;
+  width: 170px;
+}
+
+div#make a.hyundai:hover img {
+  position: absolute;
+  margin-left: 265px;
+  margin-top: -200px;
+  height: 69px;
+  width: 139px;
+}
+
+div#make a.mercury:hover img {
+  position: absolute;
+  margin-left: 175px;
+  margin-top: -175px;
+  height: 130px;
+  width: 135px;
+}
+
+div#make a.infiniti:hover img {
+  position: absolute;
+  margin-left: 190px;
+  margin-top: 75px;
+  height: 82px;
+  width: 155px;
+}
+
+div#make a.mitsubishi:hover img {
+  position: absolute;
+  margin-left: 175px;
+  margin-top: -200px;
+  height: 121px;
+  width: 134px;
+}
+
+div#make a.buick:hover img {
+  position: absolute;
+  margin-left: 260px;
+  margin-top: -30px;
+  height: 128px;
+  width: 134px;
+}
+
+div#make a.jaguar:hover img {
+  position: absolute;
+  margin-left: 170px;
+  margin-top: 50px;
+  height: 81px;
+  width: 200px;
+}
+
+div#make a.nissan:hover img {
+  position: absolute;
+  margin-left: 80px;
+  margin-top: 50px;
+  height: 128px;
+  width: 143px;
+}
+
+div#make a.cadillac:hover img {
+  position: absolute;
+  margin-left: 240px;
+  margin-top: -50px;
+  height: 126px;
+  width: 134px;
+}
+
+div#make a.jeep:hover img {
+  position: absolute;
+  margin-left: 180px;
+  margin-top: 0px;
+  height: 77px;
+  width: 167px;
+}
+
+div#make a.oldsmobile:hover img {
+  position: absolute;
+  margin-left: 40px;
+  margin-top: 50px;
+  height: 97px;
+  width: 175px;
+}
+
+div#make a.chevy:hover img {
+  position: absolute;
+  margin-left: 220px;
+  margin-top: -60px;
+  height: 74px;
+  width: 174px;
+}
+
+div#make a.kia:hover img {
+  position: absolute;
+  margin-left: 210px;
+  margin-top: 0px;
+  height: 70px;
+  width: 137px;
+}
+
+div#make a.pontiac:hover img {
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 0px;
+  height: 158px;
+  width: 78px;
+}
+
+div#make a.chrysler:hover img {
+  position: absolute;
+  margin-left: 250px;
+  margin-top: -110px;
+  height: 120px;
+  width: 120px;
+}
+
+div#make a.landrover:hover img {
+  position: absolute;
+  margin-left: 150px;
+  margin-top: -50px;
+  height: 77px;
+  width: 134px;
+}
+
+div#make a.saab:hover img {
+  position: absolute;
+  margin-left: 90px;
+  margin-top: -50px;
+  height: 134px;
+  width: 134px;
+}
+
+div#make a.porsche:hover img {
+  position: absolute;
+  margin-left: 75px;
+  margin-top: -25px;
+  height: 144px;
+  width: 114px;
+}
+
+div#make a.dodge:hover img {
+  position: absolute;
+  margin-left: 270px;
+  margin-top: -130px;
+  height: 138px;
+  width: 134px;
+}
+
+div#make a.lexus:hover img {
+  position: absolute;
+  margin-left: 190px;
+  margin-top: -75px;
+  height: 93px;
+  width: 137px;
+}
+
+div#make a.saturn:hover img {
+  position: absolute;
+  margin-left: 100px;
+  margin-top: -75px;
+  height: 132px;
+  width: 134px;
+}
+
+div#make a.ford:hover img {
+  position: absolute;
+  margin-left: 275px;
+  margin-top: -130px;
+  height: 59px;
+  width: 150px;
+}
+
+div#make a.lincoln:hover img {
+  position: absolute;
+  margin-left: 225px;
+  margin-top: -75px;
+  height: 69px;
+  width: 41px;
+}
+
+div#make a.subaru:hover img {
+  position: absolute;
+  margin-left: 90px;
+  margin-top: -75px;
+  height: 69px;
+  width: 134px;
+}
+
+div#make a.gmc:hover img {
+  position: absolute;
+  margin-left: 275px;
+  margin-top: -145px;
+  height: 33px;
+  width: 150px;
+}
+
+div#make a.mazda:hover img {
+  position: absolute;
+  margin-left: 195px;
+  margin-top: -125px;
+  height: 107px;
+  width: 135px;
+}
+
+div#make a.suzuki:hover img {
+  position: absolute;
+  margin-left: 100px;
+  margin-top: -120px;
+  height: 124px;
+  width: 134px;
+}
+
+div#make a.volvo:hover img {
+  position: absolute;
+  margin-left: 90px;
+  margin-top: -220px;
+  height: 137px;
+  width: 134px;
+}
+
+div#make a.volkswagen:hover img {
+  position: absolute;
+  margin-left: 50px;
+  margin-top: -200px;
+  height: 124px;
+  width: 124px;
+}
+
+div#make a.toyota:hover img {
+  position: absolute;
+  margin-left: 90px;
+  margin-top: -125px;
+  height: 72px;
+  width: 124px;
+}
+
+/*end car*/
+
+span.main {
+  color: #0000CC;
+}
+
+#services {
+  font-size: small;
+}
+
+#services:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.leftcolumn {
+  float: left;
+  width: 29%;
+}
+
+.middlecolumn {
+  float: left;
+  width: 33%;
+}
+
+.rightcolumn {
+  float: left;
+  width: 20%;
+}
+
+#coupons {
+  text-align: center;
+  float: left;
+}
+
+#coupons2 {
+  text-align: center;
+  float: left;
+}
+
+#labor {
+  width: 14rem;
+  height: 9rem;
+  border-style: dashed;
+  padding: 10px;
+  background-color: #F8F8F8;
+}
+
+#oil {
+  width: 230px;
+  border-style: dashed;
+  padding: 10px;
+  margin-left: 10px;
+  background-color: #F8F8F8;
+}
+
+#brake {
+  width: 14rem;
+  height: 9rem;
+  border-style: dashed;
+  padding: 10px;
+  margin-left: 10px;
+  background-color: #F8F8F8;
+}
+
+#inspection {
+  width: 14rem;
+  height: 9rem;
+  border-style: dashed;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #F8F8F8;
+}
+
+.price {
+  color: red;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.coupon {
+  font-size: x-small;
+}
+
+.title {
+  font-weight: bold;
+  font-size: large;
+}
+
+.title2 {
+  font-weight: bold;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+#shop {
+  float: left;
+}
+
+.blue {
+  color: blue;
+}
+
+#pictures {
+  text-align: center;
+}

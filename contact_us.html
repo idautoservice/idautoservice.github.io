@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>I.D. Auto Service - Contact Us</title>
+    <meta name="description" content="How you can reach us." />
+    <meta name="keywords" content="mechanic,auto mechanic,auto,shop,repair,auto shop,repairman,vehicle,car,automobile,facility,gurnee,illinois,60031,waukegan,id,service,automotive,I.D.,mercedes,audi,vw,volkswagen, toyota,land,rover,bmw,honda,nissan,idautoservice,buick,chevy,infinity,hyundai,jeep,kia,saak,subaru,volvo,benz,ford,gmc,cadillac,dodge, lexus,electrical,mechanical,maintenance,tires,general,repairs,tune,up,alternator,enginge,transmission,tire,carburetor,circuit,computer,brake,check,engine,ac,cooling,lube" />
+    <link rel="stylesheet" type="text/css" href="web.css" />
+</head>
+
+<body>
+    <div id="container">
+        <div id="banner">
+            <img src="images/banner.jpg" alt="banner" width="797" height="210" />
+        </div>
+        <div id="address">
+            1211 Estes Unit #1 Gurnee IL, 60031 <br />
+            Office Phone: (847) 775-2721
+        </div>
+        <div id="navigation">
+            <p>
+                <a class="button" href="/" onclick="this.blur();"><span>&nbsp;Home</span></a><br /><br />
+                <a class="button" href="services.html" onclick="this.blur();"><span>&nbsp;Services</span></a><br /><br />
+                <a class="button" href="specials.html" onclick="this.blur();"><span>&nbsp;Specials</span></a><br /><br />
+                <a class="button" href="directions.html" onclick="this.blur();"><span>&nbsp;Directions</span></a><br /><br />
+                <a class="button" href="about_us.html" onclick="this.blur();"><span>&nbsp;About Us</span></a><br /><br />
+                <a class="button" href="contact_us.html" onclick="this.blur();"><span>&nbsp;Contact Us</span></a><br /><br />
+            </p>
+        </div>
+        <div id="content">
+            This is where we give our customers a chance to tell us what they think about our web site. Is there anything you would like to see us offer? Do you have any questions or comments? Our business depends on your satisfaction, so please feel free to contact us.<br /><br />
+            <b>Email: </b><span id="igor"></span><br /><br />
+            <b>Phone:</b> (847) 775-2721<br /><br />
+            <b>Address:</b><br />
+            1211 Estes Ln. Unit #1<br />
+            Gurnee, IL 60031
+        </div>
+        <div id="footer">
+            Website copyright Â© 2004-2024 I.D. Auto Service, Inc.
+        </div>
+    </div>
+
+    <script type="text/javascript" language="javascript">
+        // Email obfuscator script 2.1 by Tim Williams, University of Arizona
+        // Random encryption key feature by Andrew Moulden, Site Engineering Ltd
+        // This code is freeware provided these four comment lines remain intact
+        // A wizard to generate this code is at http://www.jottings.com/obfuscator/
+        {
+            coded = "PwGM@PAOdEGvQMnPuQ.uGt"
+            key = "MShJGfvtBZilg5edUR0LW27C94xqnEXaPcwyQAFbrkKHo6smN38TDOzup1VjIY"
+            shift = coded.length
+            link = ""
+            for (i = 0; i < coded.length; i++) {
+                if (key.indexOf(coded.charAt(i)) == -1) {
+                    ltr = coded.charAt(i)
+                    link += (ltr)
+                }
+                else {
+                    ltr = (key.indexOf(coded.charAt(i)) - shift + key.length) % key.length
+                    link += (key.charAt(ltr))
+                }
+            }
+            document.getElementById("igor").innerHTML = "<a href='mailto:" + link + "'>" + link + "</a>";
+        }
+    </script><noscript>Sorry, you need Javascript on to email me.</noscript>
+
+</body>
+
+</html>
